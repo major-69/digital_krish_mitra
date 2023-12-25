@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Activity.ForgetPass_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:id="@+id/top"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="back"
+            android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+            app:tint="@color/darkgreen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgetpassword"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="@color/darkgreen"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/view"
+        android:layout_below="@id/top"
+        android:background="@color/lightgrey"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/icon"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/forgot_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/EnterMobile"
+        android:layout_below="@id/image"
+        app:endIconMode="clear_text"
+        app:counterEnabled="true"
+        app:errorEnabled="true"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:textColorHint="@color/darkgreen"
+        app:hintTextColor="@color/darkgreen"
+        app:boxStrokeColor="@color/darkgreen"
+        app:startIconDrawable="@drawable/ic_baseline_call_24"
+        app:startIconTint="@color/black"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLines="1"
+            android:id="@+id/forgot_mobiletext"
+            app:errorEnabled="true"
+            android:maxLength="10"
+            android:backgroundTint="#CDCCCC"
+            android:textColorHint="@color/darkgreen"
+            android:textColor="@color/darkgreen"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/sendotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="@string/SendOTP" />
+
+</RelativeLayout>

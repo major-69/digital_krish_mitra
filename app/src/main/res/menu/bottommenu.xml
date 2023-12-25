@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item0"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/bottomtab_home"
+        app:cnb_iconColor="@color/purple_700" />
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/icon_cart"
+        android:title="@string/krishiMitraBajar"
+        app:cnb_iconColor="@color/purple_700" />
+
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/icon_channel_partner"
+        android:title="@string/channelPartner"
+        app:cnb_iconColor="@color/purple_700" />
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/icon_wallet"
+        android:title="@string/wallet"
+        app:cnb_iconColor="@color/purple_700" />
+
+</menu>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.Profile_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="40dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageicon"
+                    android:src="@drawable/icon" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/posts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/posts"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/followers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:id="@+id/follower"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/followers"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/followings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:id="@+id/following"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/following"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/demoname"
+            android:id="@+id/name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/badgeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/designation"
+            android:textColor="@color/black"
+            android:layout_marginStart="10dp"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="-20dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/edit"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:text="@string/editprofile"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ic_baseline_mode_edit_outline_24" />
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/teal_700"
+            app:tabInlineLabel="true"
+            android:contentDescription="@string/fab_transformation_scrim_behavior"
+            app:tabSelectedTextColor="@color/teal_700"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Small"
+            app:tabTextColor="@color/teal_700" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tab_layout"
+            android:contentDescription="@string/AddPost"
+            android:nestedScrollingEnabled="false" />
+
+        <!--        <View-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:background="@color/lightgrey"-->
+        <!--            android:layout_marginTop="50dp"-->
+
+        <!--            />-->
+        <!--        -->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:weightSum="3"-->
+
+        <!--            >-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:scaleType="fitXY"-->
+        <!--                android:id="@+id/fullview"-->
+        <!--                android:src="@drawable/splashicon"-->
+        <!--                />-->
+        <!--            <View-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/lightgrey"-->
+        <!--                />-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/icon"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+        <!--            <View-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/lightgrey"-->
+        <!--                />-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/post"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+
+        <!--        </LinearLayout>-->
+        <!--        <View-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:background="@color/lightgrey"-->
+        <!--            />-->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:weightSum="3"-->
+
+        <!--            >-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/splashicon"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+        <!--            <View-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/lightgrey"-->
+        <!--                />-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/icon"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+        <!--            <View-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/lightgrey"-->
+        <!--                />-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/post"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+
+        <!--        </LinearLayout>-->
+        <!--        <View-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:background="@color/lightgrey"-->
+        <!--            />-->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:weightSum="3"-->
+        <!--            >-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/splashicon"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+        <!--            <View-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/lightgrey"-->
+        <!--                />-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/icon"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+        <!--            <View-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/lightgrey"-->
+        <!--                />-->
+        <!--            <ImageView-->
+        <!--                android:layout_width="100dp"-->
+        <!--                android:layout_height="100dp"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:src="@drawable/post"-->
+        <!--                android:scaleType="fitXY"-->
+
+        <!--                />-->
+
+        <!--        </LinearLayout>-->
+        <!--        <View-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="2dp"-->
+        <!--            android:background="@color/lightgrey"-->
+        <!--            />-->
+
+    </LinearLayout>
+
+<!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:icon=""-->
+<!--        -->
+<!--        />-->
+
+
+
+</RelativeLayout>

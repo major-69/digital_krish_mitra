@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/bottomtab_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+     <item
+        android:id="@+id/shareapp"
+        android:title="@string/ShareApp"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+
+     <item
+        android:id="@+id/donation"
+        android:title="@string/MyDonation"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        />
+
+     <item
+        android:id="@+id/language"
+        android:title="@string/SelectLanguage"
+        android:icon="@drawable/ic_baseline_swipe_24"
+        />
+
+     <item
+        android:id="@+id/terms"
+        android:title="@string/TermsConditions"
+        android:icon="@drawable/ic_baseline_checklist_24"
+        />
+
+     <item
+        android:id="@+id/privacy"
+        android:title="@string/PrivacyPolicies"
+        android:icon="@drawable/ic_baseline_privacy_tip_24"
+        />
+
+     <item
+        android:id="@+id/refund"
+        android:title="@string/RefundCancellation"
+        android:icon="@drawable/ic_baseline_settings_backup_restore_24"
+        />
+
+     <item
+        android:id="@+id/disclaimer"
+        android:title="@string/Disclaimer"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+
+     <item
+        android:id="@+id/refer"
+        android:title="@string/refer"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/Logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        />
+
+</menu>

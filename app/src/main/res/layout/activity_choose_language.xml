@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Activity.Choose_Language_Activity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/logonew"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/signika"
+        android:text="@string/SelectLanguage"
+        android:textColor="@color/darkgreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginHorizontal="16dp   "
+        android:layout_marginTop="44dp"
+        android:paddingHorizontal="16dp"
+        android:layout_weight="1"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:text="Hindi"
+            android:layoutDirection="rtl"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:paddingHorizontal="12dp"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center"
+            android:background="@drawable/radio_group_background"
+            android:textColor="@drawable/text_color_radio_button"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:text="English"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="8dp"
+            android:background="@drawable/radio_group_background"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_radio_button"
+            android:layoutDirection="rtl"
+            android:button="@android:color/transparent"
+            android:layout_weight="1"/>
+    </RadioGroup>
+    
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/darkgreen"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="12dp"
+        android:id="@+id/proceedButton"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

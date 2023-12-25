@@ -1,0 +1,230 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Krishi Mitraa</string>
+
+    <string name="YourFundraise">Your Fundraise</string>
+    <string name="YourJobPost">Your Job Post</string>
+    <string name="YourPost">Your Post</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="Confirm">Confirm</string>
+    <string name="YouwanttoApply">You want to Apply?</string>
+
+    <string name="Youwantlogout">You want to logout?</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="foryou">For you</string>
+    <string name="City">City</string>
+    <string name="StreetArea">Street/ Area</string>
+    <string name="HouseNo.">House No.</string>
+    <string name="jobseeker">Job Holder</string>
+    <string name="Donatee">Donate</string>
+    <string name="bottomtab_home">Farmer Chaupal</string>
+    <string name="bottomtab_notification">Notification</string>
+    <string name="channelPartner">Channel Partner</string>
+    <string name="bottomtab_profile">Profile</string>
+    <string name="bottomtab_video">Video</string>
+    <string name="krishiMitraBajar">Krishi Bazaar</string>
+    <string name="appnameonly">Krishi Mitraa</string>
+    <string name="login_btn">Login</string>
+    <string name="enterpass">Enter Password</string>
+    <string name="entermobile">Enter Mobile</string>
+    <string name="forgetpass">Forgot Password?</string>
+    <string name="registration">Registration</string>
+    <string name="signin">Sign Up</string>
+    <string name="update">Update</string>
+    <string name="job">Job</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="registernow">Register Now</string>
+    <string name="confiemotp">Continue</string>
+    <string name="resendotp">Resend OTP?</string>
+    <string name="demoname">Ayan Khan</string>
+    <string name="designation">(Professional)</string>
+    <string name="demonotification">commented on your post</string>
+    <string name="demoname1">Sahil Khanna</string>
+    <string name="democomment">Awesome pic</string>
+    <string name="democommentreply">Thanks</string>
+    <string name="demotime">2 d</string>
+    <string name="reply">Reply</string>
+    <string name="demonotitime">23 May at 13:24</string>
+    <string name="demotime1">10 h</string>
+    <string name="like">  Like</string>
+    <string name="comment">  Comment</string>
+    <string name="follow">  Follow</string>
+    <string name="SendOTP">Send OTP</string>
+    <string name="EnterMobile">Enter Mobile</string>
+    <string name="forgetpassword">Forget Password                </string>
+    <string name="share">  Share</string>
+    <string name="Apply">Apply</string>
+    <string name="MyDonations">My Donations</string>
+    <string name="demolines">It,s time to revenge.</string>
+    <string name="demolikes">10</string>
+    <string name="Profile">Profile</string>
+    <string name="Search">Search</string>
+    <string name="Submit">Submit</string>
+    <string name="Verify">Verify OTP</string>
+    <string name="democomments">4</string>
+    <string name="comments">comments</string>
+    <string name="Comments">Comments</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="lucknow">Lucknow</string>
+    <string name="androiddev">Android Developer</string>
+    <string name="company">Digicoders Technologies pvt ltd</string>
+    <string name="postdate">Posted 20h</string>
+    <string name="experience">     0-1 Years</string>
+    <string name="jobdesc">Job Description</string>
+    <string name="diploma">Graduation /Diploma</string>
+    <string name="hrmanager">Ayan Khan ( HR Manager )</string>
+    <string name="commenthint">Write a comment.....</string>
+    <string name="search">Search here...</string>
+    <string name="address">   Vivek Khand, Gomti Nagar, Lucknow</string>
+    <string name="salary">    2-3 LPA</string>
+    <string name="eligibility">    Graduation/Diploma</string>
+    <string name="requiredcandidate">Required Candidate profile</string>
+    <string name="jobtype">Remote Job</string>
+    <string name="TermsConditions">Terms &amp; Conditions</string>
+    <string name="PrivacyPolicies">Privacy &amp; Policies</string>
+    <string name="RefundCancellation">Refund &amp; Cancellation</string>
+    <string name="Logout">Logout</string>
+    <string name="ApplicantName">Applicant Name</string>
+    <string name="Disclaimer">Disclaimer</string>
+    <string name="refer">Refer or invite any friend</string>
+    <string name="SelectLanguage">Select Language</string>
+    <string name="MyDonation">My Donation</string>
+    <string name="ShareApp">Share App</string>
+    <string name="AddShortVideo">Add Short Video</string>
+    <string name="AddJob">Add Job</string>
+    <string name="AddPost">Add Post</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="OldPassword">Old Password</string>
+    <string name="NewPassword">New Password</string>
+    <string name="conPassword">Confirm Password</string>
+    <string name="Continue">Continue</string>
+    <string name="Chat">Chat</string>
+    <string name="raised">raised</string>
+    <string name="donate">donate</string>
+    <string name="donation">Donation</string>
+    <string name="ayan">ayan@</string>
+    <string name="goal">Goal : ₹ 3,00,000</string>
+    <string name="fields">Excellent communication skills.\n
+Strong logical and analytical reasoning skills.\n
+Code proficiency with Java, Android SDK, REST &amp; SOAP APIs, Payment Gateways and Video/Audio libraries.\n
+Good knowledge of Git practices, Android versions, Android UI/UX, design patterns, code standards and best practices.\n
+Familiarity with cloud messaging, In-App purchases and Push notifications.\n
+In Depth knowledge about Android Studio.\n
+Knowledge of Android Watch and Android TV development is a plus.\n </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AddReel">Add Short Story</string>
+    <string name="addstoryhint">Say something about this short video...</string>
+    <string name="postbtn">Post</string>
+    <string name="permission">Permission                  </string>
+    <string name="addfund">Create Farmer FPO</string>
+    <string name="FarmerFPOName">Farmer FPO Name</string>
+    <string name="FarmerEquipmentName">Equipment ka Name</string>
+    <string name="TotalDonationRequired">Total Donation Required</string>
+    <string name="Patientage">Patient age</string>
+    <string name="UploadPatientImage">Upload Patient Image*</string>
+    <string name="desc">Description: </string>
+    <string name="donationdesc">Sureshbhai’s name is recognised with much love and reverence by everyone in and around Bhabhar, Gujarat. For over five years now, this man has been the source of happiness and relief for thousands of people who are too poor to afford a single meal. He gives them freshly cooked meals daily and a reason to continue with their lives. But there was a time when Sureshbhai was going through a lot of trouble in his life - he wasn’t sure if he would be able to feed his own family.
+    \n
+    “As soon as I heard the word cancer, I went blank. I couldn’t hear the other words the doctor was saying anymore. Everything around me was a blur. I can’t explain how shocked we both were. We couldn’t believe that our Kaivalya who was playing and active just a few days ago, was now battling such a dangerous disease.” - Ujwala Bhoir, Mother  </string>
+    <string name="lucknowuttarpradesh">Lucknow, Uttar Pradesh</string>
+    <string name="Rank">Rank</string>
+    <string name="f_p_o_advicer">F.P.O Advicer</string>
+    <string name="login_quote">Welcome to Krishi Mitraa</string>
+    <string name="otp_heading">Enter the 4 digit OTP code send by us</string>
+    <string name="otp_label">Enter Otp</string>
+    <string name="newsfeedheading">Select the option related to your problem</string>
+    <string name="newsfeedtextoption">Get the diagnosis of the disease by taking photos of it</string>
+    <string name="newsFeedSecondOption">Ask questions related to agriculture</string>
+    <string name="send_feed">Send Feed</string>
+
+    <string name="fpo_constructor_adviser">FPO Construction Officer</string>
+    <string name="fpo_inspecting_officer">FPO Inspecting Officer</string>
+    <string name="fpo_vistar_officer"> FPO Extension Officer</string>
+    <string name="fpo_supervisior">FPO Supervisior </string>
+    <string name="fpo_manager">FPO Manager </string>
+    <string name="fpo_sr_manager">FPO SR. Manager</string>
+    <string name="fpo_jonal_manager">FPO Zonal Manager</string>
+    <string name="fpo_regional_manager">FPO Regional Manager </string>
+    <string name="fpo_sr_regional_manager">FPO Sr Regional Manager </string>
+    <string name="fpo_state_head_manager">FPO State Head Manager </string>
+    <string name="fpo_country_head_manager">FPO Country Head Manager</string>
+    <string name="gram">Village</string>
+    <string name="tehseel">Tehseel</string>
+    <string name="nagar">Nagar</string>
+    <string name="district">District</string>
+    <string name="pincode">Pincode</string>
+    <string name="state">State</string>
+    <string name="bussiness_name">Bussiness Name</string>
+    <string name="referal_code">Referal Code</string>
+    <string name="wallet">Wallet</string>
+    <string name="account_number">Account Number</string>
+    <string name="confirm_account_number">Confirm Account Number</string>
+    <string name="ifsc_code">IFSC Code*</string>
+    <string name="Video">Video</string>
+
+    <string name="trackter">Tractor</string>
+    <string name="Rotavator">Rotavator</string>
+    <string name="Troli">Troli</string>
+    <string name="thresher">thresher</string>
+    <string name="Solar_Pump">Solar Pump</string>
+    <string name="Spray_Machine">Spray Machine</string>
+    <string name="Land_purchase">Land purchase</string>
+    <string name="Medical_treatment">Medical treatment</string>
+
+
+    <string name="title_activity_add_amount">Add_Amount_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="choose">Choose</string>
+
+
+</resources>

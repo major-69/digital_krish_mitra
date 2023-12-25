@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">कृषि मित्र</string>
+
+    <string name="YourFundraise">आपका धन संचय</string>
+    <string name="YourJobPost">आपकी जॉब पोस्ट</string>
+    <string name="YourPost">आपकी पोस्ट</string>
+    <string name="Youwantlogout">आप लॉगआउट करना चाहते हैं?</string>
+    <string name="Cancel">कैंसिल</string>
+
+    <string name="City">शहर</string>
+    <string name="StreetArea">सड़क/क्षेत्र</string>
+    <string name="HouseNo.">मकान नंबर</string>
+
+
+    <string name="krishiMitraBajar">कृषि बाज़ार</string>
+
+    <string name="channelPartner">चैनल पार्टनर</string>
+    <string name="No">नहीं</string>
+    <string name="Yes">हाँ</string>
+    <string name="Confirm">पुष्टि करें</string>
+    <string name="YouwanttoApply">क्या आप आवेदन करना चाहते हैं?</string>
+    <string name="reply">जवाब</string>
+    <string name="permission">अनुमति</string>
+
+    <string name="foryou">आपके लिए</string>
+    <string name="jobseeker">नोकारियां</string>
+    <string name="Donatee">दान देना</string>
+    <string name="bottomtab_home" tools:ignore="ExtraTranslation">कृषक चौपाल</string>
+    <string name="bottomtab_notification">सूचना</string>
+    <string name="bottomtab_profile">प्रोफ़ाइल</string>
+    <string name="bottomtab_video">वीडियो</string>
+    <string name="appnameonly">कृषि मित्र</string>
+    <string name="login_btn">लॉग इन</string>
+    <string name="enterpass">पास वर्ड दर्ज करें</string>
+    <string name="entermobile">
+मोबाइल दर्ज करें</string>
+    <string name="forgetpass">पासवर्ड भूल गए?</string>
+    <string name="registration">पंजीकरण
+</string>
+    <string name="signin">साइन अप करें</string>
+    <string name="democommentreply">धन्यवाद</string>
+    <string name="ApplicantName">आवेदक का नाम</string>
+    <string name="Disclaimer">अस्वीकरण</string>
+    <string name="refer">किसी मित्र को सन्दर्भित करें या आमंत्रित करें</string>
+    <string name="designation">(पेशेवर)</string>
+
+    <string name="donation">दान</string>
+    <string name="update">अपडेट</string>
+    <string name="job">नोकारि</string>
+    <string name="name">नाम</string>
+    <string name="mobile">मोबाइल</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="registernow">अभी पंजीकरण करें</string>
+    <string name="confiemotp">जारी रखना</string>
+    <string name="resendotp">ओटीपी पुनः भेजें?</string>
+    <string name="demoname">अयान खान</string>
+    <string name="demonotification">आपकी पोस्ट पर टिप्पणी की</string>
+    <string name="demoname1">
+साहिल खन्ना</string>
+    <string name="democomment">अविश्वसनीय तस्वीर</string>
+    <string name="demotime">2 d</string>
+    <string name="demonotitime">23 May at 13:24</string>
+    <string name="demotime1">10 h</string>
+    <string name="like">  लईक</string>
+    <string name="comment">  कमेंट
+</string>
+    <string name="follow">  फालो</string>
+    <string name="SendOTP">
+OTP भेजें</string>
+    <string name="EnterMobile">मोबाइल दर्ज करें</string>
+    <string name="forgetpassword">पासवर्ड भूल गए               </string>
+    <string name="share">  शेयर</string>
+    <string name="Apply">अप्लाई</string>
+    <string name="MyDonations">मेरा दान</string>
+    <string name="demolines">यह बदला लेने का समय है.</string>
+    <string name="demolikes">10</string>
+    <string name="Profile">प्रोफ़ाइल</string>
+    <string name="Search">तलाश करे
+</string>
+    <string name="Submit">जमा करना</string>
+    <string name="Verify">ओटीपी सत्यापित करें</string>
+    <string name="democomments">4</string>
+    <string name="comments">कमेंट्स</string>
+    <string name="Comments">कमेंट्स</string>
+    <string name="posts">पोस्ट
+</string>
+    <string name="followers">फालोअर्स</string>
+    <string name="following">
+फाउलोइंग</string>
+    <string name="editprofile">प्रोफ़ाइल बदलाव करें</string>
+    <string name="lucknow">लखनऊ</string>
+    <string name="androiddev">एंड्रॉइड डेवलपर</string>
+    <string name="company">
+डिजीकोडर्स टेक्नोलॉजीज प्राइवेट लिमिटेड</string>
+    <string name="postdate">पोस्ट किया गया 20h</string>
+    <string name="experience">     0-1 साल</string>
+    <string name="jobdesc">नौकरी का विवरण</string>
+    <string name="diploma">स्नातक/डिप्लोमा</string>
+    <string name="hrmanager">अयान खान (एचआर मैनेजर)</string>
+    <string name="commenthint">एक कमेंट लिखें.....</string>
+    <string name="search">तलाश करे...</string>
+    <string name="address">
+विवेक खण्ड,गोमती नगर,लखनऊ</string>
+    <string name="salary">    2-3 एलपीए</string>
+    <string name="eligibility">    स्नातक/डिप्लोमा</string>
+    <string name="requiredcandidate">आवश्यक उम्मीदवार प्रोफ़ाइल</string>
+    <string name="jobtype">दूरस्थ नौकरी
+</string>
+    <string name="TermsConditions">शर्तें एवं शर्तें स्थितियाँ</string>
+    <string name="PrivacyPolicies">गोपनीयता एवं नीतियों</string>
+    <string name="RefundCancellation">धनवापसी और रद्द करना</string>
+    <string name="Logout">लॉग आउट</string>
+    <string name="SelectLanguage">भाषा चुने
+</string>
+    <string name="MyDonation">मेरा दान</string>
+    <string name="ShareApp">ऐप शेयर करें</string>
+    <string name="AddShortVideo">छोटी वीडियो जोड़ें</string>
+    <string name="AddJob">
+नौकरी जोड़ें</string>
+    <string name="AddPost">पोस्ट जोड़ें</string>
+    <string name="ForgetPassword">पासवर्ड भूल गए</string>
+    <string name="OldPassword">पुराना पासवर्ड</string>
+    <string name="NewPassword">नया पासवर्ड</string>
+    <string name="conPassword">
+पासवर्ड की पुष्टि कीजिये</string>
+    <string name="Continue">जारी रखना</string>
+    <string name="Chat">बात </string>
+    <string name="raised">उठाया</string>
+    <string name="donate">दान देना
+</string>
+    <string name="ayan">अयान
+@</string>
+    <string name="goal">लक्ष्य : ₹ 3,00,000</string>
+    <string name="fields">उत्कृष्ट संचार कौशल.\n
+मजबूत तार्किक और विश्लेषणात्मक तर्क कौशल।\n
+जावा, एंड्रॉइड एसडीके, आरईएसटी और amp के साथ कोड दक्षता; SOAP एपीआई, भुगतान गेटवे और वीडियो/ऑडियो लाइब्रेरी।\n
+Git प्रथाओं, Android संस्करणों, Android UI/UX, डिज़ाइन पैटर्न, कोड मानकों और सर्वोत्तम प्रथाओं का अच्छा ज्ञान।\n
+क्लाउड मैसेजिंग, इन-ऐप खरीदारी और पुश नोटिफिकेशन से परिचित।\n
+एंड्रॉइड स्टूडियो के बारे में गहराई से जानकारी।\n
+एंड्रॉइड वॉच और एंड्रॉइड टीवी डेवलपमेंट का ज्ञान एक प्लस है।\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AddReel">लघु कथा जोड़ें
+</string>
+    <string name="addstoryhint">इस लघु वीडियो के बारे में कुछ कहें...</string>
+    <string name="postbtn">पोस्ट</string>
+    <string name="addfund">किसान एफपीओ बनाएं</string>
+    <string name="FarmerFPOName">किसान एफपीओ का नाम</string>
+    <string name="FarmerEquipmentName">उपकरण का नाम</string>
+    <string name="TotalDonationRequired">कुल दान आवश्यक
+</string>
+    <string name="Patientage">रोगी की आयु</string>
+    <string name="UploadPatientImage">रोगी की छवि अपलोड करें*</string>
+    <string name="desc">विवरण:
+</string>
+    <string name="donationdesc">सुरेशभाई का नाम भाभर, गुजरात में और उसके आसपास सभी लोग बहुत प्यार और श्रद्धा से पहचानते हैं। पिछले पांच वर्षों से अधिक समय से, यह व्यक्ति उन हजारों लोगों के लिए खुशी और राहत का स्रोत रहा है जो इतने गरीब हैं कि एक समय का भोजन भी नहीं जुटा पाते। वह उन्हें प्रतिदिन ताजा पका हुआ भोजन देता है और अपने जीवन को जारी रखने का एक कारण देता है। लेकिन एक समय ऐसा भी था जब सुरेशभाई अपने जीवन में बहुत परेशानी से गुजर रहे थे - उन्हें यकीन नहीं था कि वह अपने परिवार का भरण-पोषण कर पाएंगे या नहीं।
+    \एन
+    “जैसे ही मैंने कैंसर शब्द सुना, मैं सन्न रह गया। मैं डॉक्टर द्वारा कहे जा रहे अन्य शब्दों को अब और नहीं सुन सका। मेरे चारों ओर सब कुछ धुंधला था। मैं बता नहीं सकता कि हम दोनों कितने सदमे में थे। हमें यकीन ही नहीं हो रहा था कि हमारा कैवल्य जो कुछ दिन पहले तक खेल रहा था और सक्रिय था, अब इतनी खतरनाक बीमारी से जूझ रहा है। -उज्वला भोईर, मां
+    </string>
+    <string name="lucknowuttarpradesh">लखनऊ, उत्तर प्रदेश</string>
+
+    <string name="Rank">रैंक 1</string>
+    <string name="f_p_o_advicer">एफ.पी.ओ.सलाहकार</string>
+    <string name="login_quote">कृषि मित्र पर आपका स्वागत है</string>
+    <string name="otp_heading">हमारे द्वारा भेजा गया 4 अंकों का ओटीपी कोड दर्ज करें</string>
+    <string name="otp_label">ओटीपी दर्ज करें</string>
+    <string name="newsfeedheading">अपनी समस्या से जुड़े विकल्प का चुनाव करें</string>
+    <string name="newsfeedtextoption">रोग का फोटो लेकर रोग का निदान प्राप्त करें</string>
+    <string name="newsFeedSecondOption">कृषि से सम्बंधित प्रश्न पूछे</string>
+    <string name="send_feed">फ़ीड भेजें</string>
+    <string name="fpo_constructor_adviser">FPO निर्माण अधिकारी</string>
+
+
+    <string name="fpo_inspecting_officer">FPO प्रशिक्षण अधिकारी</string>
+    <string name="fpo_vistar_officer" > FPO Extension Officer</string>
+    <string name="fpo_supervisior" >FPO Supervisior </string>
+    <string name="fpo_manager">FPO Manager </string>
+    <string name="fpo_sr_manager" >FPO SR. Manager</string>
+    <string name="fpo_jonal_manager">FPO Zonal Manager</string>
+    <string name="fpo_regional_manager" >FPO Regional Manager </string>
+    <string name="fpo_sr_regional_manager">FPO Sr Regional Manager </string>
+    <string name="fpo_state_head_manager" >FPO State Head Manager </string>
+    <string name="fpo_country_head_manager" >FPO Country Head Manager</string>
+    <string name="tehseel">Tehseel</string>
+    <string name="nagar">Nagar</string>
+    <string name="district">District</string>
+    <string name="pincode">Pincode</string>
+    <string name="state">State</string>
+
+    <string name="gram">Village</string>
+
+    <string name="bussiness_name">Bussiness Name</string>
+    <string name="referal_code">Referal Code</string>
+    <string name="wallet">बटुआ</string>
+    <string name="account_number">Account Number</string>
+    <string name="confirm_account_number">Confirm Account Number</string>
+    <string name="ifsc_code">IFSC Code*</string>
+    <string name="Video">Video</string>
+
+    <string name="trackter">ट्रैक्टर</string>
+    <string name="Rotavator">रोटावेटर</string>
+    <string name="Troli">ट्रॉली</string>
+    <string name="thresher">थ्रेशर</string>
+    <string name="Solar_Pump">सोलर पंप</string>
+    <string name="Spray_Machine">स्प्रे मशीन</string>
+    <string name="Land_purchase">भूमि खरीद</string>
+    <string name="Medical_treatment">चिकित्सा उपचार</string>
+    <string name="choose">चुनिए</string>
+
+</resources>
