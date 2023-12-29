@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import java.util.ArrayList;
 import java.util.List;
 
+import digi.coders.digitalkrishimitraa.Activity.Add_Amount_Activity;
 import digi.coders.digitalkrishimitraa.Activity.KYC_Activity;
 import digi.coders.digitalkrishimitraa.Adapter.RecyclerHistoryAdapter;
 import digi.coders.digitalkrishimitraa.Model.HistoryModal;
@@ -42,6 +43,14 @@ public class Wallet_Fragment extends Fragment {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getContext(), KYC_Activity.class));
+            }
+        });
+
+
+        binding.addMoney.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), Add_Amount_Activity.class));
             }
         });
 

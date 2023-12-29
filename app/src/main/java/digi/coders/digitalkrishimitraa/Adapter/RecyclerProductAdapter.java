@@ -51,6 +51,12 @@ public class RecyclerProductAdapter extends RecyclerView.Adapter<RecyclerProduct
             }
         });
 
+        if (qty > 0) {
+            Log.d("setUpTheProductQuantityLayout","plus button click qty: qty above 0");
+            binding.quantityText.setVisibility(View.VISIBLE);
+            binding.minusButton.setVisibility(View.VISIBLE);
+        }
+
 
         binding.plusButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -5,14 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".Activity.OTP_Activity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="80dp"
+        android:paddingHorizontal="16dp"
+        android:scaleType="fitEnd"
+        android:paddingVertical="8dp"
         android:src="@drawable/logonew" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingVertical="12dp"
+        android:src="@drawable/otp_img"/>
+
 
 
     <TextView
@@ -22,7 +32,8 @@
         android:layout_marginTop="24dp"
         android:text="@string/otp_heading"
         android:textColor="@color/darkgreen"
-        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -31,20 +42,10 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:text="+91 9305471882"
-        android:textColor="@color/orange"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/otp_label"
-        android:textColor="@color/darkgreen"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textAlignment="center"
+         />
 
 
     <com.chaos.view.PinView
@@ -55,9 +56,9 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:cursorVisible="true"
+        android:itemBackground="@drawable/otp_layout_background"
         android:hint="****"
         android:inputType="number"
-        android:itemBackground="@color/lightgrey"
         android:padding="12dp"
         android:textColor="@color/darkgreen"
         android:textSize="18sp"
@@ -68,7 +69,7 @@
         app:itemRadius="4dp"
         app:itemSpacing="10dp"
         app:itemWidth="48dp"
-        app:lineColor="@color/darkgreen"
+        app:lineColor="@android:color/transparent"
         app:lineWidth="2dp"
         app:viewType="rectangle" />
 
@@ -76,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/loginButton"
-        android:layout_marginHorizontal="40dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginBottom="24dp"
         app:cardBackgroundColor="@color/darkgreen"
         app:cardCornerRadius="12dp">
@@ -85,10 +86,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:padding="16dp"
+            android:padding="14dp"
             android:text="Login"
             android:textColor="@color/white"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </com.google.android.material.card.MaterialCardView>
 

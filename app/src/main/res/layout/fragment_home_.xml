@@ -13,6 +13,7 @@
         android:id="@+id/tab_layout"
         android:background="@color/white"
         android:contentDescription="false"
+        app:tabMode="auto"
         app:tabTextColor="@color/teal_700"
         android:layout_alignParentTop="true"
         app:tabIndicatorColor="@color/teal_700"

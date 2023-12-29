@@ -16,8 +16,8 @@
     <string name="City">City</string>
     <string name="StreetArea">Street/ Area</string>
     <string name="HouseNo.">House No.</string>
-    <string name="jobseeker">Job Holder</string>
-    <string name="Donatee">Donate</string>
+    <string name="jobseeker">Job Search</string>
+    <string name="Donatee">FPO Fundraiser</string>
     <string name="bottomtab_home">Farmer Chaupal</string>
     <string name="bottomtab_notification">Notification</string>
     <string name="channelPartner">Channel Partner</string>
@@ -51,13 +51,13 @@
     <string name="reply">Reply</string>
     <string name="demonotitime">23 May at 13:24</string>
     <string name="demotime1">10 h</string>
-    <string name="like">  Like</string>
-    <string name="comment">  Comment</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
     <string name="follow">  Follow</string>
     <string name="SendOTP">Send OTP</string>
     <string name="EnterMobile">Enter Mobile</string>
     <string name="forgetpassword">Forget Password                </string>
-    <string name="share">  Share</string>
+    <string name="share">2 Share</string>
     <string name="Apply">Apply</string>
     <string name="MyDonations">My Donations</string>
     <string name="demolines">It,s time to revenge.</string>
@@ -108,7 +108,7 @@
     <string name="Continue">Continue</string>
     <string name="Chat">Chat</string>
     <string name="raised">raised</string>
-    <string name="donate">donate</string>
+    <string name="donate">Donate</string>
     <string name="donation">Donation</string>
     <string name="ayan">ayan@</string>
     <string name="goal">Goal : ₹ 3,00,000</string>
@@ -225,6 +225,8 @@ Knowledge of Android Watch and Android TV development is a plus.\n </string>
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="choose">Choose</string>
+    <string name="add_money_activity_title">Recharge</string>
+    <string name="month">Month</string>
 
 
 </resources>

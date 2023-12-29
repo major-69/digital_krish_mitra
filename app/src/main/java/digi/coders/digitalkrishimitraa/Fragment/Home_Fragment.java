@@ -18,6 +18,7 @@ import digi.coders.digitalkrishimitraa.Activity.Add_Job_Activity;
 import digi.coders.digitalkrishimitraa.Activity.Add_Post_Activity;
 import digi.coders.digitalkrishimitraa.Activity.Add_Reel_Activity;
 import digi.coders.digitalkrishimitraa.Adapter.Viewpager_Adapter;
+import digi.coders.digitalkrishimitraa.Create_Farmer_FPO;
 import digi.coders.digitalkrishimitraa.R;
 import digi.coders.digitalkrishimitraa.databinding.FragmentHomeBinding;
 
@@ -107,7 +108,7 @@ public class Home_Fragment extends Fragment {
             @Override
             public void onClick(View v) {
                 bottomSheetDialog.dismiss();
-                startActivity(new Intent(getActivity(), Add_Fundraise_Activity.class));
+                startActivity(new Intent(getActivity(), Create_Farmer_FPO.class));
 
             }
         });

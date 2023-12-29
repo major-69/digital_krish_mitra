@@ -4,14 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.SyncRequest;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.chaos.view.PinView;
@@ -51,7 +46,7 @@ public class Registration_Activity extends AppCompatActivity {
     private void showBottomSheetDialog(String userid) {
 
         final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(Registration_Activity.this, R.style.DialogStyle);
-        bottomSheetDialog.setContentView(R.layout.showbottomdialog);
+        bottomSheetDialog.setContentView(R.layout.verfiy_otp_bts);
 
         PinView pinView= bottomSheetDialog.findViewById(R.id.pinview);
 

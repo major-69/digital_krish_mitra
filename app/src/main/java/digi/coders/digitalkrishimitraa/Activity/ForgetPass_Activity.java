@@ -52,7 +52,7 @@ public class ForgetPass_Activity extends AppCompatActivity {
     private void showBottomSheetDialog() {
 
         final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(ForgetPass_Activity.this, R.style.DialogStyle);
-        bottomSheetDialog.setContentView(R.layout.showbottomdialog);
+        bottomSheetDialog.setContentView(R.layout.verfiy_otp_bts);
 
         PinView pinView= bottomSheetDialog.findViewById(R.id.pinview);
 

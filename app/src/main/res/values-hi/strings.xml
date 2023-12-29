@@ -24,8 +24,8 @@
     <string name="permission">अनुमति</string>
 
     <string name="foryou">आपके लिए</string>
-    <string name="jobseeker">नोकारियां</string>
-    <string name="Donatee">दान देना</string>
+    <string name="jobseeker">नौकरी की खोज</string>
+    <string name="Donatee">FPO धन संचयन</string>
     <string name="bottomtab_home" tools:ignore="ExtraTranslation">कृषक चौपाल</string>
     <string name="bottomtab_notification">सूचना</string>
     <string name="bottomtab_profile">प्रोफ़ाइल</string>
@@ -72,7 +72,7 @@
 OTP भेजें</string>
     <string name="EnterMobile">मोबाइल दर्ज करें</string>
     <string name="forgetpassword">पासवर्ड भूल गए               </string>
-    <string name="share">  शेयर</string>
+    <string name="share">2 शेयर</string>
     <string name="Apply">अप्लाई</string>
     <string name="MyDonations">मेरा दान</string>
     <string name="demolines">यह बदला लेने का समय है.</string>
@@ -209,5 +209,7 @@ Git प्रथाओं, Android संस्करणों, Android UI/UX, �
     <string name="Land_purchase">भूमि खरीद</string>
     <string name="Medical_treatment">चिकित्सा उपचार</string>
     <string name="choose">चुनिए</string>
+    <string name="add_money_activity_title">Add money to wallet</string>
+    <string name="month">माह</string>
 
 </resources>

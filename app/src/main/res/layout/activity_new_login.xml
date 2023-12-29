@@ -10,11 +10,18 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="16dp"
+        android:scaleType="fitEnd"
         android:src="@drawable/logonew" />
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kisan_images" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,56 +34,45 @@
         android:textStyle="bold" />
 
 
-
-
-    <LinearLayout
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginMobile"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:hint="@string/entermobile"
+        android:maxLines="1"
+        android:textColorHint="@color/darkgreen"
+        app:boxStrokeColor="@color/darkgreen"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/darkgreen"
+        app:prefixText="+91"
+        app:startIconDrawable="@drawable/ic_baseline_call_24"
+        app:startIconTint="@color/black">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/loginMobile"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="28dp"
-            android:background="@color/white"
-            android:hint="@string/entermobile"
+            android:inputType="number"
             android:maxLines="1"
+            android:textColor="@color/darkgreen"
             android:textColorHint="@color/darkgreen"
-            app:boxStrokeColor="@color/darkgreen"
-            app:endIconMode="clear_text"
-            app:errorEnabled="true"
-            app:prefixText="+91"
-            app:hintTextColor="@color/darkgreen"
-            app:startIconDrawable="@drawable/ic_baseline_call_24"
-            app:startIconTint="@color/black">
+            app:errorEnabled="true" />
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/emailLogin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#CDCCCC"
-                android:inputType="number"
-                android:maxLines="1"
-                android:textColor="@color/darkgreen"
-                android:textColorHint="@color/darkgreen"
-                app:errorEnabled="true" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-        </com.google.android.material.textfield.TextInputLayout>
-
-
-    </LinearLayout>
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="24dp"
         app:cardBackgroundColor="@color/darkgreen"
-        app:cardCornerRadius="12dp">
+        app:cardCornerRadius="8dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -85,7 +81,7 @@
             android:padding="16dp"
             android:text="@string/Verify"
             android:textColor="@color/white"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </com.google.android.material.card.MaterialCardView>
 
@@ -95,8 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:gravity="center"
-        android:visibility="gone"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/newUserText"
@@ -122,5 +118,5 @@
 
     </LinearLayout>
 
-
 </LinearLayout>
+

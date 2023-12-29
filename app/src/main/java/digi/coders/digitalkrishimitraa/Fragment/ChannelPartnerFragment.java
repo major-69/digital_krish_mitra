@@ -1,5 +1,6 @@
 package digi.coders.digitalkrishimitraa.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import digi.coders.digitalkrishimitraa.Activity.Add_Product_Activity;
 import digi.coders.digitalkrishimitraa.R;
 import digi.coders.digitalkrishimitraa.databinding.FragmentChannelPartnerBinding;
 
@@ -16,7 +18,8 @@ import digi.coders.digitalkrishimitraa.databinding.FragmentChannelPartnerBinding
  * Use the {@link ChannelPartnerFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ChannelPartnerFragment extends Fragment {
+public class
+ChannelPartnerFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -81,6 +84,14 @@ public class ChannelPartnerFragment extends Fragment {
                 binding.chanelPartnerData.setVisibility(View.VISIBLE);
             }
         });
+
+        binding.addProduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), Add_Product_Activity.class));
+            }
+        });
+
         return binding.getRoot();
     }
 }

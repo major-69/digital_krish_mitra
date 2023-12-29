@@ -10,8 +10,7 @@
         android:layout_width="40dp"
         android:layout_height="match_parent"
         android:measureWithLargestChild="true"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <View
             android:id="@+id/topViewDesign"
@@ -27,8 +26,7 @@
             android:layout_height="20dp"
             android:layout_gravity="center"
             app:cardBackgroundColor="@color/darkgreen"
-            app:cardCornerRadius="10dp"
-            />
+            app:cardCornerRadius="10dp" />
 
 
         <View
@@ -47,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@id/layout_design"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="6dp"
         app:cardUseCompatPadding="true">
@@ -73,17 +72,38 @@
                     android:textColor="@color/darkgreen"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/badgeRankName"
+
+                <LinearLayout
+                    android:id="@+id/layout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="8dp"
                     android:layout_toEndOf="@id/badgeRankNumber"
-                    android:text="@string/f_p_o_advicer"
-                    android:textColor="@color/darkgreen"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/badgeRankName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/f_p_o_advicer"
+                        android:textColor="@color/darkgreen"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/salaryPackage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="8dp"
+                        android:text="Salary: ₹17,80,020"
+                        android:textColor="@color/darkgrey"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
 
 
                 <com.google.android.material.divider.MaterialDivider
@@ -92,18 +112,18 @@
                     android:layout_height="30dp"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="8dp"
-                    android:layout_toEndOf="@id/badgeRankName"
+                    android:layout_toEndOf="@id/layout"
                     app:dividerColor="@color/teal_700" />
 
 
                 <TextView
+                    android:id="@+id/badgeRankNumberText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="8dp"
                     android:layout_toEndOf="@id/badgeRankDivider"
-                    android:text="@string/Rank"
-                    android:id="@+id/badgeRankNumberText"
+                    android:text="Level: 1,2,3"
                     android:textColor="@color/teal_700"
                     android:textSize="16sp" />
 

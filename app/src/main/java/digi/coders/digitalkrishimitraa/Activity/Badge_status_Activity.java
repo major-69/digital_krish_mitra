@@ -28,11 +28,11 @@ public class Badge_status_Activity extends AppCompatActivity {
 
         badgeStatusList.add(new BadgeModal("","F.p.o.Advicer",""));
         badgeStatusList.add(new BadgeModal("","F.p.o.orgniger",""));
-        badgeStatusList.add(new BadgeModal("","F.p.o. Superviser",""));
-        badgeStatusList.add(new BadgeModal("","F.p.o. Bdm",""));
+        badgeStatusList.add(new BadgeModal("","F.p.o.Superviser",""));
+        badgeStatusList.add(new BadgeModal("","F.p.o.Bdm",""));
         badgeStatusList.add(new BadgeModal("","F.p.o.Manager",""));
-        badgeStatusList.add(new BadgeModal("","F.p.o. Regional manager",""));
-        badgeStatusList.add(new BadgeModal("","F.p.o. State head Manager",""));
+        badgeStatusList.add(new BadgeModal("","F.p.o.Regional manager",""));
+        badgeStatusList.add(new BadgeModal("","F.p.o.State head Manager",""));
 
 
         binding.badgeStatusRecycler.setAdapter(new Badge_status_adapter(badgeStatusList,Badge_status_Activity.this));

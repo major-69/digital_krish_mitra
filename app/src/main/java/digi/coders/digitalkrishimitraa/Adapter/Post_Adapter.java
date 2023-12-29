@@ -90,15 +90,15 @@ public class Post_Adapter extends RecyclerView.Adapter<Post_Adapter.TaskDataHold
         holder.name.setText(model.getName());
         holder.time.setText(model.getDays());
         holder.citystate.setText(model.getCity()+", "+model.getState());
-        holder.like.setText(model.getTotalLike());
-        holder.comments.setText(model.getTotalCumment());
+        holder.liketxt.setText(model.getTotalLike()+" "+context.getString(R.string.like));
+        holder.comments.setText(model.getTotalCumment()+" "+context.getString(R.string.comment));
         holder.text.setText(model.getDescritpion());
 
-        Picasso.get().load(Constants.IMAGE_URL+model.getImage()).placeholder(R.drawable.icon)
-                .into(holder.imageicon);
-
-        Picasso.get().load(Constants.IMAGE_URL+model.getUserImage()).placeholder(R.drawable.icon)
-                .into(holder.image);
+//        Picasso.get().load(Constants.IMAGE_URL+model.getImage()).placeholder(R.drawable.icon)
+//                .into(holder.imageicon);
+//
+//        Picasso.get().load(Constants.IMAGE_URL+model.getUserImage()).placeholder(R.drawable.icon)
+//                .into(holder.image);
 
         holder.likefull.setOnClickListener(new View.OnClickListener() {
             @Override
