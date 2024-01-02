@@ -147,8 +147,8 @@ Git प्रथाओं, Android संस्करणों, Android UI/UX, �
 </string>
     <string name="addstoryhint">इस लघु वीडियो के बारे में कुछ कहें...</string>
     <string name="postbtn">पोस्ट</string>
-    <string name="addfund">किसान एफपीओ बनाएं</string>
-    <string name="FarmerFPOName">किसान एफपीओ का नाम</string>
+    <string name="addfund">किसान FPO बनाएं</string>
+    <string name="FarmerFPOName">किसान FPO का नाम</string>
     <string name="FarmerEquipmentName">उपकरण का नाम</string>
     <string name="TotalDonationRequired">कुल दान आवश्यक
 </string>
@@ -171,19 +171,39 @@ Git प्रथाओं, Android संस्करणों, Android UI/UX, �
     <string name="newsfeedtextoption">रोग का फोटो लेकर रोग का निदान प्राप्त करें</string>
     <string name="newsFeedSecondOption">कृषि से सम्बंधित प्रश्न पूछे</string>
     <string name="send_feed">फ़ीड भेजें</string>
-    <string name="fpo_constructor_adviser">FPO निर्माण अधिकारी</string>
+    <string name="fpo_nirman_officer">FPO निर्माण अधिकारी</string>
+    <string name="fpo_prashikhan_officer">FPO प्रशिक्षण अधिकारी</string>
+    <string name="fpo_nirikhan_officer"> FPO निरीक्षण अधिकारी</string>
+    <string name="fpo_vistar_officer">FPO विस्तार अधिकारी</string>
+    <string name="fpo_supervisior">FPO सुपरवाइजर</string>
+    <string name="fpo_manager">FPO मैनेजर </string>
+    <string name="fpo_sr_manager">FPO वरिष्ठ मैनेजर</string>
+    <string name="fpo_area_manager">FPO SR. Manager</string>
+    <string name="fpo_sr_area_manager">FPO SR. Manager</string>
+    <string name="fpo_jonal_manager">FPO आंचलिक मैनेजर</string>
+    <string name="fpo_sr_jonal_manager">FPO Zonal Manager</string>
+    <string name="fpo_regional_manager">FPO क्षेत्रीय प्रबंध कर्ता </string>
+    <string name="fpo_sr_regional_manager">FPO वरिष्ठ क्षेत्रीय मैनेजर </string>
+    <string name="fpo_state_head_manager">FPO राज्य प्रमुख मैनेजर</string>
+    <string name="fpo_country_head_manager">FPO देश प्रमुख मैनेजर</string>
 
+    <string name="desc_nirman_officer">FPO निर्माण अधिकारी को अपना जॉब कोड से  माह 10 FPO निर्माण कराना है 10 किसान होने पर एक FPO बन जाएगा 12 माह में 120 FPO बनाना है 120 FPO बन जाने पर आपका प्रमोशन हो जाएगा</string>
+    <string name="desc_nirikhan_officer">FPO निरीक्षण अधिकारी को अपने FPO में शामिल किसानों की निगरानी करनी होती है ताकि यह पता लगाया जा सके कि कौन से किसान सक्रिय हैं और कौन से किसान सक्रिय नहीं हैं और उन्हें उनके जॉब कोड के अनुसार प्रेरित करना है, हर महीने एक FPO बनाना अनिवार्य है। आपकी टीम द्वारा 400 नए FPO बनाने के बाद आपको पदोन्नत किया जाएगा</string>
+    <string name="desc_prashikhan_officer">FPO प्रशिक्षण अधिकारी की के फील्ड में जाकर या ऑनलाइन FPO में शामिल किसानों कृषि हेतु प्रशिखन देना है और साथ ही अपने FPO में शामिल किसानों को एक और FPO बनाने के लिए प्रेरित करना है। यदि आप अपने पुराने FPO के माध्यम से 240 नए FPO बनाते हैं, तो आपको पदोन्नत किया जाएगा।</string>
+    <string name="desc_vistar_officer">FPO विस्तार अधिकारी को अपने जिले में FPO का विस्तार करने का कार्य होता है जिस्मे अधिक से अधिक किसान कंपनी के साथ जुड़ें और सामूहिक खेती के लिए प्रशिक्षण लें FPO विस्तार अधिकारी को अपने जॉब कोड से हर महीने 1 FPO बनाना अनिवार्य है आपके टीम से 1000 नए FPO बन जाने पर आपका प्रमोशन हो जाएगा</string>
+    <string name="desc_supervisior">FPO सुपरवाइजर को अपने FPO को प्रमोट करने की जिम्मेवारी होती है जिसकी टीम में ज्यादा से ज्यादा FPO बने और किसानों को सामूहिक खेती के लिए जोड़ा जाए FPO सुपरवाइजर को हर महीने अपने जॉब कोड से 1 FPO बनाना अनिवार्य है
+जब आपकी पुरानी टीम से 2000 नए FPO बन जाएंगे तब आपका प्रमोशन होगा</string>
+    <string name="desc_manager">FPO मैनेजर को अपनी टीम को प्रमोट करने की जिम्मेदारी होती है ज्यादा से ज्यादा मीटिंग करे  की आपके FPO अपना प्रमोशन ले और कंपनी के साथ ज्यादा से ज्यादा किसान जुड़ें जाए, FPO मैनेजर को हर महीने अपने जॉब कोड से 1 FPO बनाना अनिवार्य है आपके पुरानी टीम से 4000 नए FPO बन जाने पर आपका प्रमोशन हो जाएगा</string>
+    <string name="desc_sr_manager"></string>
+    <string name="desc_area_manager"></string>
+    <string name="desc_sr_area_manager"></string>
+    <string name="desc_jonal_manager"></string>
+    <string name="desc_sr_jonal_manager"></string>
+    <string name="desc_regional_manager"></string>
+    <string name="desc_sr_regional_manager"></string>
+    <string name="desc_state_head_manager"></string>
+    <string name="desc_country_head_manager"></string>
 
-    <string name="fpo_inspecting_officer">FPO प्रशिक्षण अधिकारी</string>
-    <string name="fpo_vistar_officer" > FPO Extension Officer</string>
-    <string name="fpo_supervisior" >FPO Supervisior </string>
-    <string name="fpo_manager">FPO Manager </string>
-    <string name="fpo_sr_manager" >FPO SR. Manager</string>
-    <string name="fpo_jonal_manager">FPO Zonal Manager</string>
-    <string name="fpo_regional_manager" >FPO Regional Manager </string>
-    <string name="fpo_sr_regional_manager">FPO Sr Regional Manager </string>
-    <string name="fpo_state_head_manager" >FPO State Head Manager </string>
-    <string name="fpo_country_head_manager" >FPO Country Head Manager</string>
     <string name="tehseel">Tehseel</string>
     <string name="nagar">Nagar</string>
     <string name="district">District</string>
@@ -211,5 +231,8 @@ Git प्रथाओं, Android संस्करणों, Android UI/UX, �
     <string name="choose">चुनिए</string>
     <string name="add_money_activity_title">Add money to wallet</string>
     <string name="month">माह</string>
-
+    <string name="available_recharge_balance">उपलब्ध रिचार्ज बैलेंस</string>
+    <string name="add_amount_page_note">जो जितने महीने का रिचार्ज करेगा तो उतने ही महीने का जॉब पेज उसे कर पाएगा</string>
+    <string name="add_amount_page_2">Rs 300 will be reduced by Rs 10 per day. On completion of 30 days, the job page will be blocked and then you will be able to access the page after recharging.</string>
+    <string name="note"><u>टिप्पणी: </u></string>
 </resources>

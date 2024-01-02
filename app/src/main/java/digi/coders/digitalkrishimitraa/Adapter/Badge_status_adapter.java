@@ -38,9 +38,14 @@ public class Badge_status_adapter extends RecyclerView.Adapter<Badge_status_adap
     public void onBindViewHolder(@NonNull Badge_VH holder, int position) {
 
         BadgeModal modal = badgeModalList.get(position);
-//        binding.badgeRankNumber.setText((holder.getAdapterPosition() + 1) + "");
-//        binding.badgeRankName.setText(modal.getBadgeRankName());
-//        binding.badgeRankNumberText.setText(context.getString(R.string.Rank) + " " + (holder.getAdapterPosition() + 1));
+        binding.badgeRankNumber.setText(modal.getBadgeRank());
+        binding.badgeRankName.setText(modal.getBadgeRankName());
+        binding.badgeDescription.setText(modal.getBadgeRankDefinition());
+        binding.badgeRankNumberText.setText("Level: "+modal.getLevel());
+        binding.salaryPackage.setText("Salary Package: "+modal.getSalaryPackage());
+
+       // binding.badgeRankNumberText.setText(context.getString(R.string.Rank) + " " + (holder.getAdapterPosition() + 1));
+
 
         if (holder.getAdapterPosition() == 0) {
             binding.topViewDesign.setVisibility(View.INVISIBLE);

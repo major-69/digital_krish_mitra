@@ -103,7 +103,6 @@ public class Post_Adapter extends RecyclerView.Adapter<Post_Adapter.TaskDataHold
         holder.likefull.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 like(holder, model.getPostId());
             }
         });

@@ -77,6 +77,7 @@
                     android:id="@+id/layout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:layout_toEndOf="@id/badgeRankNumber"
                     android:orientation="vertical">
 
@@ -91,45 +92,52 @@
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/salaryPackage"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginStart="8dp"
-                        android:text="Salary: ₹17,80,020"
-                        android:textColor="@color/darkgrey"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-
 
                 </LinearLayout>
 
 
-                <com.google.android.material.divider.MaterialDivider
-                    android:id="@+id/badgeRankDivider"
-                    android:layout_width="0.5dp"
-                    android:layout_height="30dp"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="8dp"
-                    android:layout_toEndOf="@id/layout"
-                    app:dividerColor="@color/teal_700" />
+            </RelativeLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp">
+
+
+                <TextView
+                    android:id="@+id/salaryPackage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Salary Package: ₹17,80,020"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/badgeRankNumberText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="8dp"
-                    android:layout_toEndOf="@id/badgeRankDivider"
                     android:text="Level: 1,2,3"
-                    android:textColor="@color/teal_700"
-                    android:textSize="16sp" />
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
-            </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="2dp"
+                app:dividerThickness="1dp" />
 
             <TextView
+                android:id="@+id/badgeDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"

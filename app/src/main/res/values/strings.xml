@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Krishi Mitraa</string>
 
     <string name="YourFundraise">Your Fundraise</string>
@@ -146,17 +146,38 @@ Knowledge of Android Watch and Android TV development is a plus.\n </string>
     <string name="newsFeedSecondOption">Ask questions related to agriculture</string>
     <string name="send_feed">Send Feed</string>
 
-    <string name="fpo_constructor_adviser">FPO Construction Officer</string>
-    <string name="fpo_inspecting_officer">FPO Inspecting Officer</string>
+    <string name="fpo_nirman_officer">FPO Construction Officer</string>
+    <string name="fpo_prashikhan_officer">FPO Training Officer</string>
+    <string name="fpo_nirikhan_officer"> FPO Inspecting Officer</string>
     <string name="fpo_vistar_officer"> FPO Extension Officer</string>
     <string name="fpo_supervisior">FPO Supervisior </string>
-    <string name="fpo_manager">FPO Manager </string>
+    <string name="fpo_manager">FPO Manager</string>
     <string name="fpo_sr_manager">FPO SR. Manager</string>
+    <string name="fpo_area_manager">FPO SR. Manager</string>
+    <string name="fpo_sr_area_manager">FPO SR. Manager</string>
     <string name="fpo_jonal_manager">FPO Zonal Manager</string>
-    <string name="fpo_regional_manager">FPO Regional Manager </string>
-    <string name="fpo_sr_regional_manager">FPO Sr Regional Manager </string>
-    <string name="fpo_state_head_manager">FPO State Head Manager </string>
+    <string name="fpo_sr_jonal_manager">FPO Zonal Manager</string>
+    <string name="fpo_regional_manager">FPO Regional Manager</string>
+    <string name="fpo_sr_regional_manager">FPO Sr Regional Manager</string>
+    <string name="fpo_state_head_manager">FPO State Head Manager</string>
     <string name="fpo_country_head_manager">FPO Country Head Manager</string>
+
+    <string name="desc_nirman_officer">FPO Nirman Adhikari has to create 10 FPOs every month from his job code. After joining 10 farmers, one FPO will be made. If you make 120 FPOs in 12 months, you will get promotion after making 120 FPOs.</string>
+    <string name="desc_nirikhan_officer">FPO monitoring officer has to monitor the farmers included in his FPO to find out which farmers are active and which farmers are not active and he has to motivate them as per their job code, It is mandatory to make one FPO every month. After 400 new FPO are done by your team you will be promoted</string>
+    <string name="desc_prashikhan_officer">FPO Inspecting officer online is to give application to the farmers who are included in FPO and also to inspire the farmers included in their FPO to make another FPO. If you make 240 new FPOs through your old FPO, you will be promoted.</string>
+    <string name="desc_vistar_officer">FPO Extension Officer has the task of expanding FPO in his district in which more and more farmers join the company and take training for collective farming. It is mandatory for FPO Extension Officer to create 1 FPO every month from his job code.When 1000 new FPO created with your team. You will be promoted to New Rank</string>
+    <string name="desc_supervisior">It is the responsibility of the supervisor to promote his FPO so that more and more FPOs are formed in his team and farmers are added to collective farming. It is mandatory for the FPO supervisor to create 1 FPO every month from his job code.
+You will be promoted when 2000 new FPOs are created from your old team.</string>
+    <string name="desc_manager">FPO manager has the responsibility of promoting his team, hold as many meetings as possible so that your FPO gets promoted and more and more farmers join the company, it is mandatory for the FPO manager to create 1 FPO from his job code every month. You will be promoted once the team creates 4000 new FPOs.</string>
+    <string name="desc_sr_manager"></string>
+    <string name="desc_area_manager"></string>
+    <string name="desc_sr_area_manager"></string>
+    <string name="desc_jonal_manager"></string>
+    <string name="desc_sr_jonal_manager"></string>
+    <string name="desc_regional_manager"></string>
+    <string name="desc_sr_regional_manager"></string>
+    <string name="desc_state_head_manager"></string>
+    <string name="desc_country_head_manager"></string>
     <string name="gram">Village</string>
     <string name="tehseel">Tehseel</string>
     <string name="nagar">Nagar</string>
@@ -227,6 +248,10 @@ Knowledge of Android Watch and Android TV development is a plus.\n </string>
     <string name="choose">Choose</string>
     <string name="add_money_activity_title">Recharge</string>
     <string name="month">Month</string>
+    <string name="available_recharge_balance">Available Recharge Balance</string>
+    <string name="add_amount_page_note">The number of months a person recharges, he will be able to get the job page for the same number of months.</string>
+    <string name="note"><u>Note:</u></string>
+    <string name="add_amount_page_2">Rs 300 will be reduced by Rs 10 per day. On completion of 30 days, the job page will be blocked and then you will be able to access the page after recharging.</string>
 
 
 </resources>
