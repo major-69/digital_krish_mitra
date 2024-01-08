@@ -132,7 +132,7 @@
             android:id="@+id/badgeName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/designation"
+            android:text="@string/fpo_area_manager"
             android:textColor="@color/black"
             android:layout_marginStart="10dp"
             android:textSize="12sp" />

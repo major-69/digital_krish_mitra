@@ -99,7 +99,7 @@
     <string name="MyDonation">My Donation</string>
     <string name="ShareApp">Share App</string>
     <string name="AddShortVideo">Add Short Video</string>
-    <string name="AddJob">Add Job</string>
+    <string name="AddJob">Apply for Remote Job</string>
     <string name="AddPost">Add Post</string>
     <string name="ForgetPassword">Forget Password</string>
     <string name="OldPassword">Old Password</string>
@@ -152,40 +152,35 @@ Knowledge of Android Watch and Android TV development is a plus.\n </string>
     <string name="fpo_vistar_officer"> FPO Extension Officer</string>
     <string name="fpo_supervisior">FPO Supervisior </string>
     <string name="fpo_manager">FPO Manager</string>
-    <string name="fpo_sr_manager">FPO SR. Manager</string>
-    <string name="fpo_area_manager">FPO SR. Manager</string>
-    <string name="fpo_sr_area_manager">FPO SR. Manager</string>
+    <string name="fpo_area_manager">FPO Area Manager</string>
     <string name="fpo_jonal_manager">FPO Zonal Manager</string>
-    <string name="fpo_sr_jonal_manager">FPO Zonal Manager</string>
     <string name="fpo_regional_manager">FPO Regional Manager</string>
-    <string name="fpo_sr_regional_manager">FPO Sr Regional Manager</string>
     <string name="fpo_state_head_manager">FPO State Head Manager</string>
     <string name="fpo_country_head_manager">FPO Country Head Manager</string>
+    <string name="fpo_directet">FPO Directet</string>
+    <string name="fpo_cmd">FPO CMD</string>
 
     <string name="desc_nirman_officer">FPO Nirman Adhikari has to create 10 FPOs every month from his job code. After joining 10 farmers, one FPO will be made. If you make 120 FPOs in 12 months, you will get promotion after making 120 FPOs.</string>
     <string name="desc_nirikhan_officer">FPO monitoring officer has to monitor the farmers included in his FPO to find out which farmers are active and which farmers are not active and he has to motivate them as per their job code, It is mandatory to make one FPO every month. After 400 new FPO are done by your team you will be promoted</string>
     <string name="desc_prashikhan_officer">FPO Inspecting officer online is to give application to the farmers who are included in FPO and also to inspire the farmers included in their FPO to make another FPO. If you make 240 new FPOs through your old FPO, you will be promoted.</string>
     <string name="desc_vistar_officer">FPO Extension Officer has the task of expanding FPO in his district in which more and more farmers join the company and take training for collective farming. It is mandatory for FPO Extension Officer to create 1 FPO every month from his job code.When 1000 new FPO created with your team. You will be promoted to New Rank</string>
-    <string name="desc_supervisior">It is the responsibility of the supervisor to promote his FPO so that more and more FPOs are formed in his team and farmers are added to collective farming. It is mandatory for the FPO supervisor to create 1 FPO every month from his job code.
-You will be promoted when 2000 new FPOs are created from your old team.</string>
+    <string name="desc_supervisior">It is the responsibility of the supervisor to promote his FPO so that more and more FPOs are formed in his team and farmers are added to collective farming. It is mandatory for the FPO supervisor to create 1 FPO every month from his job code. You will be promoted when 2000 new FPOs are created from your old team.</string>
     <string name="desc_manager">FPO manager has the responsibility of promoting his team, hold as many meetings as possible so that your FPO gets promoted and more and more farmers join the company, it is mandatory for the FPO manager to create 1 FPO from his job code every month. You will be promoted once the team creates 4000 new FPOs.</string>
-    <string name="desc_sr_manager"></string>
-    <string name="desc_area_manager"></string>
-    <string name="desc_sr_area_manager"></string>
-    <string name="desc_jonal_manager"></string>
-    <string name="desc_sr_jonal_manager"></string>
-    <string name="desc_regional_manager"></string>
-    <string name="desc_sr_regional_manager"></string>
-    <string name="desc_state_head_manager"></string>
-    <string name="desc_country_head_manager"></string>
-    <string name="gram">Village</string>
+    <string name="desc_area_manager">FPO Area managers will hold online meetings with all their junior managers and motivate them to create more and more FPOs. It is mandatory for the FPO Area Manager to create 1 FPO from his job code every month. You will be promoted once you create 7000 new FPOs from your old team.</string>
+    <string name="desc_jonal_manager">FPO zonal manager will hold a meeting with all his FPO area managers, FPO managers and supervisors to make as many FPOs as possible. It is mandatory for the FPO Area Manager to create 1 FPO from his job code every month. You will be promoted once you create 10000 new FPOs from your old team.</string>
+    <string name="desc_regional_manager">FPO Area Manager will hold daily online meetings with all his junior field workers to develop his team. It is mandatory for FPO Area Manager to create 1 FPO from his job code every month. You will be promoted once you create 20000 new FPOs from your old team.</string>
+    <string name="desc_state_head_manager">FPO State Head Manager will promote all the officials of his team online, so that maximum number of employees can be made on FPO. It is mandatory for the FPO Area Manager to create 1 FPO from his job code every month. You will be promoted once you create 50000 new FPOs from your old team.</string>
+    <string name="desc_country_head_manager">FPO Country Head Manager will hold online meeting with managers of every state of the country. It is mandatory for FPO Directorate to create 1 FPO from your job code every month. You will be promoted once you create 100000 new FPOs from your old team.</string>
+    <string name="desc_directet">FPO Directorate will hold online meeting with all its officials every month. It is mandatory for FPO Directorate to create 1 FPO from your job code every month. You will be promoted once 50000 new FPOs are created from your old team.</string>
+    <string name="desc_cmd">FPO CMD You have achieved this rank when 1000000 FPOs are created in your team and you do not have to do any work on this rank. Every time 10 lakh new FPOs are created in your team, you will receive Rs 1 crore.</string>
+    <string name="gram">Village /Town</string>
     <string name="tehseel">Tehseel</string>
     <string name="nagar">Nagar</string>
     <string name="district">District</string>
     <string name="pincode">Pincode</string>
     <string name="state">State</string>
     <string name="bussiness_name">Bussiness Name</string>
-    <string name="referal_code">Referal Code</string>
+    <string name="referal_code">Referal Code (optional)</string>
     <string name="wallet">Wallet</string>
     <string name="account_number">Account Number</string>
     <string name="confirm_account_number">Confirm Account Number</string>
@@ -252,6 +247,10 @@ You will be promoted when 2000 new FPOs are created from your old team.</string>
     <string name="add_amount_page_note">The number of months a person recharges, he will be able to get the job page for the same number of months.</string>
     <string name="note"><u>Note:</u></string>
     <string name="add_amount_page_2">Rs 300 will be reduced by Rs 10 per day. On completion of 30 days, the job page will be blocked and then you will be able to access the page after recharging.</string>
+    <string name="job_applicant_name">Job Applicant Name</string>
+    <string name="subdistrict_block">Subdistrict/Block</string>
+    <string name="select_post_name">Select Post Name</string>
+    <string name="upload_residential_documents">Upload residential Documents</string>
 
 
 </resources>

@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "digi.coders.digitalkrishimitraa"
-        minSdk 23
-        targetSdk 32
+        minSdk 24
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -58,6 +58,7 @@ dependencies {
     implementation 'com.wangsun.upi.payment:upi-payment:0.0.5'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.github.dangiashish:Auto-Image-Slider:1.0.4'
 
 
 }

@@ -15,6 +15,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.codebyashish.autoimageslider.Enums.ImageScaleType;
+import com.codebyashish.autoimageslider.ExceptionsClass;
+import com.codebyashish.autoimageslider.Models.ImageSlidesModel;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -51,6 +54,18 @@ public class Foryou_Fragment extends Fragment implements Refresh {
         String userdata = pref.getString("userdata", "{}");
         UserModel usermodel = new Gson().fromJson(userdata, UserModel.class);
         userid=usermodel.getId();
+
+        List<ImageSlidesModel> imageSlidesModelList = new ArrayList<>();
+
+        try {
+            imageSlidesModelList.add(new ImageSlidesModel("https://img.freepik.com/free-psd/banner-template-concept-nature-environs_23-2148403961.jpg?w=1060&t=st=1704370511~exp=1704371111~hmac=65b4109538bf063c278c8558951131826388d2a1595570593560803a9526813c"));
+            imageSlidesModelList.add(new ImageSlidesModel("https://img.freepik.com/free-psd/banner-template-concept-green-nature_23-2148403960.jpg?w=826&t=st=1704370647~exp=1704371247~hmac=52452ca8a8657226055f16ac6dcf34e6e298859207fe37434c393ae4414387c5"));
+            imageSlidesModelList.add(new ImageSlidesModel("https://img.freepik.com/free-vector/hand-drawn-gardening-facebook-ad-template_23-2149704786.jpg?w=1060&t=st=1704370674~exp=1704371274~hmac=b65e01d743172cb83dfc6623140fd50b39c4a65fd8333f91b186fc3d620d4fc0"));
+        } catch (ExceptionsClass e) {
+            throw new RuntimeException(e);
+        }
+
+        binding.autoImageSlider.setImageList((ArrayList<ImageSlidesModel>) imageSlidesModelList, ImageScaleType.FIT);
 
 //        Post_Adapter adapter = new Post_Adapter(getContext());
 //        binding.recycler.setAdapter(adapter);

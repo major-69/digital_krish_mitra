@@ -1,59 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@color/white"
+    android:orientation="vertical"
+    android:overScrollMode="never"
     tools:context=".Fragment.Foryou_Fragment">
 
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/search_bar"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="10dp"
-        app:strokeColor="@color/white"
-        app:strokeWidth="1dp">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <com.codebyashish.autoimageslider.AutoImageSlider
+                android:id="@+id/autoImageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:ais_auto_sliding="true"
+                app:ais_indicator_align="@string/center"
+                app:ais_placeholder="@drawable/placeholder_default_loading"
+                app:ais_time_interval="3000"
+                app:ais_title_background="@drawable/text_background"
+               />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
-            android:orientation="horizontal"
-            android:visibility="gone">
+            android:layout_below="@id/search_bar"
+            android:background="#F3F3F3"
+            tools:listitem="" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_margin="10dp"
-                android:src="@drawable/ic_baseline_search_24"
-                app:tint="@color/purple_700" />
+    </LinearLayout>
 
-            <EditText
-                android:id="@+id/searchbox"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="@null"
-                android:backgroundTint="@color/purple_700"
-                android:hint="@string/search"
-                android:inputType="text"
-                android:textColor="@color/purple_700"
-                android:textColorHint="@color/purple_700" />
-        </LinearLayout>
-
-
-    </com.google.android.material.card.MaterialCardView>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/search_bar"
-        android:background="#F3F3F3"
-        tools:listitem="" />
-</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

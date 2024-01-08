@@ -40,8 +40,6 @@ public class Create_Farmer_FPO extends AppCompatActivity {
                handelBottomSheet();
             }
         });
-
-
         List<String> fundraiseList = new ArrayList<>();
         fundraiseList.add(getResources().getString(R.string.choose));
         fundraiseList.add(getResources().getString(R.string.trackter));

@@ -47,7 +47,7 @@ public class Add_Amount_Activity extends AppCompatActivity {
         modalList.add(new MoneyModal("48 "+getResources().getString(R.string.month),"14400"));
         modalList.add(new MoneyModal("60 "+getResources().getString(R.string.month),"18000"));
 
-        binding.moneyRecycler.setAdapter(new Add_Money_Adapter(Add_Amount_Activity.this,modalList));
+        binding.moneyRecycler.setAdapter(new Add_Money_Adapter(Add_Amount_Activity.this,modalList,binding.amountNeedToAdd));
 
         binding.addMoneyToolbar.setNavigationOnClickListener(view -> {
             finish();

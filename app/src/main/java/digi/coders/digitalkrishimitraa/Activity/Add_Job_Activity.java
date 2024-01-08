@@ -35,8 +35,6 @@ public class Add_Job_Activity extends AppCompatActivity {
         String userdata = pref.getString("userdata", "{}");
         UserModel usermodel = new Gson().fromJson(userdata, UserModel.class);
         userid=usermodel.getId();
-
-
     }
 
     public void back(View view) {finish();
@@ -46,7 +44,6 @@ public class Add_Job_Activity extends AppCompatActivity {
         if (validateRegistrationform()){
             addjob();
         }
-
     }
 
     private boolean validateRegistrationform() {
@@ -101,9 +98,7 @@ public class Add_Job_Activity extends AppCompatActivity {
                     String message= jsonObject.get("message").getAsString();
 
                     if (result.equalsIgnoreCase("success")){
-
                         Toast.makeText(Add_Job_Activity.this, message, Toast.LENGTH_SHORT).show();
-
                         finish();
                     }
                     else{
@@ -122,7 +117,6 @@ public class Add_Job_Activity extends AppCompatActivity {
             public void onFailure(Call<JsonArray> call, Throwable t) {
                 Toast.makeText(getApplicationContext(),t.getMessage(), Toast.LENGTH_SHORT).show();
                 progressDialog.dismiss();
-
             }
         });
     }

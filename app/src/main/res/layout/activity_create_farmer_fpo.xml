@@ -36,8 +36,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,16 +46,16 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                >
+                android:layout_gravity="center">
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/logo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    app:cardCornerRadius="60dp"
-                    app:cardBackgroundColor="@color/white"
                     android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="60dp"
                     app:cardElevation="5dp">
 
                     <ImageView
@@ -95,8 +95,8 @@
                 android:layout_marginHorizontal="12dp"
                 android:fontFamily="@font/actor"
                 android:text="Farmer name"
-                android:textStyle="bold"
-                android:textColor="@color/grey" />
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -112,26 +112,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="16dp"
                 android:fontFamily="@font/actor"
-                android:textSize="16sp"
-                android:textStyle="bold"
                 android:text="Farmer Address"
-                android:textColor="@color/grey" />
+                android:textColor="@color/grey"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
                 android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="4dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginEnd="6dp"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
@@ -139,8 +139,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/gram"
                         android:textColor="@color/grey"
-                        android:textSize="14sp"
-                        />
+                        android:textSize="14sp" />
 
                     <EditText
                         android:layout_width="match_parent"
@@ -151,11 +150,12 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="6dp"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
@@ -163,8 +163,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/tehseel"
                         android:textColor="@color/grey"
-                        android:textSize="14sp"
-                        />
+                        android:textSize="14sp" />
 
                     <EditText
                         android:layout_width="match_parent"
@@ -181,15 +180,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="8dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginEnd="6dp"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
@@ -197,10 +196,10 @@
                         android:layout_height="wrap_content"
                         android:text="@string/district"
                         android:textColor="@color/grey"
-                        android:textSize="14sp"
-                        />
+                        android:textSize="14sp" />
 
                     <EditText
+                        android:id="@+id/district"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edit_text_background"
@@ -209,11 +208,12 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="6dp"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <TextView
@@ -221,8 +221,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/state"
                         android:textColor="@color/grey"
-                        android:textSize="14sp"
-                        />
+                        android:textSize="14sp" />
 
                     <EditText
                         android:layout_width="match_parent"
@@ -240,12 +239,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="8dp"
                 android:text="@string/pincode"
                 android:textColor="@color/grey"
-                android:layout_marginTop="8dp"
-                android:layout_marginHorizontal="12dp"
-                android:textSize="14sp"
-                />
+                android:textSize="14sp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -262,7 +260,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/FarmerEquipmentName"
                 android:textColor="@color/grey"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <Spinner
                 android:id="@+id/equipment_name"
@@ -279,19 +277,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="12dp"
-                android:fontFamily="@font/actor"
-                android:text="@string/referal_code"
-                android:textStyle="bold"
                 android:layout_marginTop="8dp"
-                android:textColor="@color/grey" />
+                android:fontFamily="@font/actor"
+                android:text="Required amount of money"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="12dp"
+                android:background="@drawable/edit_text_background"
                 android:inputType="text"
                 android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/actor"
+                android:text="@string/referal_code"
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
                 android:background="@drawable/edit_text_background"
+                android:inputType="text"
+                android:padding="8dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/grey"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -301,19 +320,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/actor"
                 android:text="Mobile No"
-                android:textStyle="bold"
-                android:layout_marginTop="8dp"
-                android:textColor="@color/grey" />
+                android:textColor="@color/grey"
+                android:textStyle="bold" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="12dp"
-                android:paddingVertical="8dp"
                 android:background="@drawable/edit_text_background"
                 android:inputType="text"
+                android:paddingVertical="8dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/grey"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -322,20 +341,18 @@
                 android:id="@+id/sendOtpButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/SendOTP"
+                android:layout_gravity="center"
                 android:layout_marginHorizontal="12dp"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:backgroundTint="@color/darkgreen"
-                app:cornerRadius="8dp"
                 android:layout_marginTop="12dp"
-                android:layout_gravity="center"/>
-
+                android:backgroundTint="@color/darkgreen"
+                android:text="@string/SendOTP"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="8dp" />
 
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
-
 
 
 </LinearLayout>

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,9 +19,12 @@ public class Add_Money_Adapter extends RecyclerView.Adapter<Add_Money_Adapter.Mo
     Context context;
     List<MoneyModal> moneyModalList;
 
-    public Add_Money_Adapter(Context context, List<MoneyModal> moneyModalList) {
+    TextView textView;
+
+    public Add_Money_Adapter(Context context, List<MoneyModal> moneyModalList, TextView amountNeedToAdd) {
         this.context = context;
         this.moneyModalList = moneyModalList;
+        this.textView = amountNeedToAdd;
     }
 
     MoneyLayoutBinding binding;
@@ -35,9 +39,8 @@ public class Add_Money_Adapter extends RecyclerView.Adapter<Add_Money_Adapter.Mo
     @Override
     public void onBindViewHolder(@NonNull MoneyVH holder, int position) {
         MoneyModal model = moneyModalList.get(position);
-
         binding.plan.setText(model.getMonth() +" ₹"+model.getAmount());
-
+        textView.setText("₹"+model.getAmount());
     }
 
     @Override

@@ -41,7 +41,7 @@ public class Badge_status_adapter extends RecyclerView.Adapter<Badge_status_adap
         binding.badgeRankNumber.setText(modal.getBadgeRank());
         binding.badgeRankName.setText(modal.getBadgeRankName());
         binding.badgeDescription.setText(modal.getBadgeRankDefinition());
-        binding.badgeRankNumberText.setText("Level: "+modal.getLevel());
+        binding.badgeRankNumberText.setText("Task: "+modal.getLevel());
         binding.salaryPackage.setText("Salary Package: "+modal.getSalaryPackage());
 
        // binding.badgeRankNumberText.setText(context.getString(R.string.Rank) + " " + (holder.getAdapterPosition() + 1));
